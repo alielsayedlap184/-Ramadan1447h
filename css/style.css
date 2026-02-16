@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Cairo", sans-serif;
+}
+
+body, html {
+    width: 100%;
+    height: 100%;
+}
+
+/* --------- الصفحات --------- */
+.page {
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    position: relative;
+}
+
+/* الخلفية + overlay */
+.page1 {
+    background: url(../images/web.png) center/cover no-repeat;
+}
+.page2 {
+    background: url(../images/page2.png) center/cover no-repeat;
+}
+
+.page1 .overlay {
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.6);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.page1 .content h2 {
+    font-size: 32px;
+    padding: 0 15px;
+}
+
+/* --------- الصفحة الثانية --------- */
+.page2 .content {
+    padding: 20px;
+}
+.page2 .content h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+.page2 .content p {
+    font-size: 18px;
+    margin-bottom: 25px;
+    line-height: 1.5;
+}
+.page2 .btn {
+    display: inline-block;
+    padding: 12px 25px;
+    font-size: 16px;
+    background-color: #FFD100;
+    color: black;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: transform 0.3s;
+}
+.page2 .btn:hover {
+    transform: scale(1.05);
+}
+
+/* --------- Media Queries للشاشات الأكبر --------- */
+@media screen and (min-width: 768px) {
+    .page1 .content h2 {
+        font-size: 48px;
+    }
+    .page2 .content h2 {
+        font-size: 30px;
+    }
+    .page2 .content p {
+        font-size: 20px;
+    }
+    .page2 .btn {
+        font-size: 18px;
+        padding: 14px 30px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .page1 .content h2 {
+        font-size: 60px;
+    }
+    .page2 .content h2 {
+        font-size: 36px;
+    }
+    .page2 .content p {
+        font-size: 22px;
+    }
+    .page2 .btn {
+        font-size: 20px;
+        padding: 16px 40px;
+    }
+}
