@@ -32,6 +32,9 @@ body, html {
 .page3 {
     background: url(../images/page2.png) center/cover no-repeat;
 }
+.pagefinal{
+    background-color: black;
+}
 
 .page1 .overlay {
     position: absolute;
@@ -103,6 +106,24 @@ body, html {
 .page3 .btn:hover {
     transform: scale(1.05);
 }
+/* الصفحه الاخيرة */
+.pagefinal .content {
+    padding: 20px;
+}
+.pagefinal .content h2 {
+    font-size: 30px;
+    margin-bottom: 25px;
+    color: #FFD100;
+}
+.pagefinal .content p {
+    font-size: 20px;
+    margin-bottom: 25px;
+    line-height: 1.5;
+}
+.pagefinal .content .finall{
+    margin-top: 200px;
+    font-style: italic;
+}
 
 /* --------- Media Queries للشاشات الأكبر --------- */
 @media screen and (min-width: 768px) {
@@ -129,6 +150,12 @@ body, html {
         font-size: 18px;
         padding: 14px 30px;
     }
+    .pagefinal .content h2 {
+        font-size: 30px;
+    }
+    .pagefinal .content p {
+        font-size: 20px;
+    }
 }
 
 @media screen and (min-width: 1024px) {
@@ -154,5 +181,11 @@ body, html {
     .page3 .btn {
         font-size: 20px;
         padding: 16px 40px;
+    }
+    .pagefinal .content h2 {
+        font-size: 36px;
+    }
+    .pagefinal .content p {
+        font-size: 22px;
     }
 }
