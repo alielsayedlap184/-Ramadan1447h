@@ -38,6 +38,9 @@ body, html {
 .page5{
     background: url(../images/page2.png) center/cover no-repeat;
 }
+.page6{
+    background: url(../images/page2.png) center/cover no-repeat;
+}
 .pagefinal{
     background-color: black;
 }
@@ -166,9 +169,36 @@ body, html {
 .page5 .btn:hover {
     transform: scale(1.05);
 }
+/* الصفحه السادسه */
+.page6 .content {
+    padding: 20px;
+}
+.page6 .content h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+.page6 .content p {
+    font-size: 18px;
+    margin-bottom: 25px;
+    line-height: 1.5;
+}
+.page6 .btn {
+    display: inline-block;
+    padding: 12px 25px;
+    font-size: 16px;
+    background-color: #FFD100;
+    color: black;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: transform 0.3s;
+}
+.page6 .btn:hover {
+    transform: scale(1.05);
+}
 /* الصفحه الاخيرة */
 .pagefinal .content {
-    padding: 20px;
+    padding: 20px
 }
 .pagefinal .content h2 {
     font-size: 30px;
@@ -230,6 +260,19 @@ body, html {
         font-size: 18px;
         padding: 14px 30px;
     }
+    .page6 .content h2 {
+        font-size: 30px;
+    }
+    .page6 .content p {
+        font-size: 20px;
+    }
+    .page6 .btn {
+        font-size: 18px;
+        padding: 14px 30px;
+    }
+
+
+
     .pagefinal .content h2 {
         font-size: 30px;
     }
@@ -282,6 +325,19 @@ body, html {
         font-size: 20px;
         padding: 16px 40px;
     }
+    .page6 .content h2 {
+        font-size: 36px;
+    }
+    .page6 .content p {
+        font-size: 22px;
+    }
+    .page6 .btn {
+        font-size: 20px;
+        padding: 16px 40px;
+    }
+
+
+
     .pagefinal .content h2 {
         font-size: 36px;
     }
