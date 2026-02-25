@@ -44,6 +44,9 @@ body, html {
 .page7{
     background: url(../images/page2.png) center/cover no-repeat;
 }
+.page8{
+    background: url(../images/page2.png) center/cover no-repeat;
+}
 .pagefinal{
     background-color: black;
 }
@@ -226,6 +229,33 @@ body, html {
 .page7 .btn:hover {
     transform: scale(1.05);
 }
+/* الصفحه الثامنه */
+.page8 .content {
+    padding: 20px;
+}
+.page8 .content h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+.page8 .content p {
+    font-size: 18px;
+    margin-bottom: 25px;
+    line-height: 1.5;
+}
+.page8 .btn {
+    display: inline-block;
+    padding: 12px 25px;
+    font-size: 16px;
+    background-color: #FFD100;
+    color: black;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: transform 0.3s;
+}
+.page8 .btn:hover {
+    transform: scale(1.05);
+}
 /* الصفحه الاخيرة */
 .pagefinal .content {
     padding: 20px
@@ -301,15 +331,25 @@ body, html {
         padding: 14px 30px;
     }
 
-    .page7 .content h2 {
-        font-size: 30px;
+   .page7 .content h2 {
+        font-size: 36px;
     }
     .page7 .content p {
-        font-size: 20px;
+        font-size: 22px;
     }
     .page7 .btn {
-        font-size: 18px;
-        padding: 14px 30px;
+        font-size: 20px;
+        padding: 16px 40px;
+    }
+     .page8 .content h2 {
+        font-size: 36px;
+    }
+    .page8 .content p {
+        font-size: 22px;
+    }
+    .page8 .btn {
+        font-size: 20px;
+        padding: 16px 40px;
     }
 
     .pagefinal .content h2 {
@@ -382,6 +422,16 @@ body, html {
         font-size: 22px;
     }
     .page7 .btn {
+        font-size: 20px;
+        padding: 16px 40px;
+    }
+     .page8 .content h2 {
+        font-size: 36px;
+    }
+    .page8 .content p {
+        font-size: 22px;
+    }
+    .page8 .btn {
         font-size: 20px;
         padding: 16px 40px;
     }
