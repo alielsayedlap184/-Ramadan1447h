@@ -47,6 +47,9 @@ body, html {
 .page8{
     background: url(../images/page2.png) center/cover no-repeat;
 }
+.page9{
+    background: url(../images/page2.png) center/cover no-repeat;
+}
 .pagefinal{
     background-color: black;
 }
@@ -68,19 +71,19 @@ body, html {
 }
 
 /* --------- الصفحة الثانية --------- */
-.page2 .content {
+.page .content {
     padding: 20px;
 }
-.page2 .content h2 {
+.page .content h2 {
     font-size: 24px;
     margin-bottom: 15px;
 }
-.page2 .content p {
+.page .content p {
     font-size: 18px;
     margin-bottom: 25px;
     line-height: 1.5;
 }
-.page2 .btn {
+.page .btn {
     display: inline-block;
     padding: 12px 25px;
     font-size: 16px;
@@ -91,7 +94,7 @@ body, html {
     font-weight: bold;
     transition: transform 0.3s;
 }
-.page2 .btn:hover {
+.page .btn:hover {
     transform: scale(1.05);
 }
 /* --------- الصفحة الثالثة --------- */
@@ -280,13 +283,13 @@ body, html {
     .page1 .content h2 {
         font-size: 48px;
     }
-    .page2 .content h2 {
+    .page .content h2 {
         font-size: 30px;
     }
-    .page2 .content p {
+    .page .content p {
         font-size: 20px;
     }
-    .page2 .btn {
+    .page .btn {
         font-size: 18px;
         padding: 14px 30px;
     }
@@ -364,13 +367,13 @@ body, html {
     .page1 .content h2 {
         font-size: 60px;
     }
-    .page2 .content h2 {
+    .page .content h2 {
         font-size: 36px;
     }
-    .page2 .content p {
+    .page .content p {
         font-size: 22px;
     }
-    .page2 .btn {
+    .page .btn {
         font-size: 20px;
         padding: 16px 40px;
     }
