@@ -11,6 +11,16 @@ body, html {
 }
 
 /* --------- الصفحات --------- */
+.page1 {
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    position: relative;
+}
 .page {
     min-height: 100vh;
     width: 100%;
@@ -48,6 +58,9 @@ body, html {
     background: url(../images/page2.png) center/cover no-repeat;
 }
 .page9{
+    background: url(../images/page2.png) center/cover no-repeat;
+}
+.page10{
     background: url(../images/page2.png) center/cover no-repeat;
 }
 .pagefinal{
